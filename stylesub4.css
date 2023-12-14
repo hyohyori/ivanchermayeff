@@ -1,0 +1,71 @@
+*{  margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+a:link{color: #4260BC;}
+a:hover{color: #E83A05;}
+a:active{}
+a:visited{}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;}
+
+
+nav{position: relative;
+    width: 495px;
+    height: 193px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+nav ul{position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    top: 18px;
+    left: 1086px;
+}
+
+nav ul li a{display: block;
+    text-align: center;
+    font-weight: 600;
+    width: 100px;
+}
+section{height: 3000px; width: 1920px;}
+
+h1{font-size: 60px; text-align: center; border-bottom: 1px solid #E83A05}
+h2{font-size: 21px; float: left; padding-left: 542px; padding-right: 200px;}
+h3{font-size: 21px; float: left; padding-right: 170px;}
+h4{font-size: 21px;}
+h5{font-size: 21px; float: left; padding-left: 542px; padding-right: 330px;}
+h6{font-size: 21px; float: left; padding-right: 330px;}
+
+.logo1{width: 1100px; height: 320px; margin: 250px auto 0 auto ;}
+.logo2{width: 1100px; height: 320px; margin: 250px auto 0 auto ;}
+.logo3{width: 1100px; height: 320px; margin: 250px auto 0 auto ;}
+
+.wrap{width: 1100px; margin: 0 auto;}
+.lo1{font-size: 21px; float: left; padding-left: 120px;}
+.lo2{font-size: 21px; float: left; padding-left: 220px; padding-right: 120px;}
+.lo3{font-size: 21px;}
+
+.lo4{font-size: 21px; float: left; padding-left: 120px;}
+.lo5{font-size: 21px; float: left; padding-left: 350px; padding-right: 330px;}
+.lo6{font-size: 21px;}
+
+.lo7{font-size: 21px; float: left; padding-left: 100px;}
+.lo8{font-size: 21px; float: left; padding-left: 220px; padding-right: 210px;}
+.lo9{font-size: 21px;}
+
+.lo10{font-size: 21px; float: left; padding-left: 80px;}
+.lo11{font-size: 21px; float: left; padding-left: 260px; padding-right: 280px;}
+.lo12{font-size: 21px;}
+
+
+footer{}
